@@ -1,55 +1,15 @@
 {
-    "name": "llaski/nova-scheduled-jobs",
-    "description": "A Laravel Nova package to view your scheduled jobs.",
-    "keywords": [
-        "laravel",
-        "nova",
-        "schedule",
-        "jobs"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Larry Laski",
-            "email": "larry.laski@gmail.com",
-            "homepage": "https://larrylaski.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^8.0",
-        "laravel/nova": "^4.0"
-    },
-    "require-dev": {
-        "jasonmccreary/laravel-test-assertions": "^2.3",
-        "orchestra/testbench": "^7.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Llaski\\NovaScheduledJobs\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Llaski\\NovaScheduledJobs\\Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Llaski\\NovaScheduledJobs\\ServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
-        }
-    ]
+  "name": "fehneves01/nova-scheduled-jobs",
+  "description": "Descrição do seu pacote",
+  "type": "library",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "FehNeves01\\NovaScheduledJobs\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
